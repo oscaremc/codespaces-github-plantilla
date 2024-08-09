@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://oscaremc.github.io/codespaces-github-plantilla",
+  "homepage": "https://oscaremc.github.io/codespaces-github-plantilla#feat/edit-information-oemc",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://oscaremc.github.io/codespaces-github-plantilla'",
+    "build-gh": "parcel build --public-url 'https://oscaremc.github.io/codespaces-github-plantilla#feat/edit-information-oemc'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
